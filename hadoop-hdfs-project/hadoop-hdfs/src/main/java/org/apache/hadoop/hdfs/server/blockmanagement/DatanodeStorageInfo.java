@@ -110,6 +110,7 @@ public class DatanodeStorageInfo {
   private long capacity;
   private long dfsUsed;
   private volatile long remaining;
+  private volatile long remainingRelated;
   private long blockPoolUsed;
 
   private volatile BlockInfoContiguous blockList = null;
@@ -220,6 +221,18 @@ public class DatanodeStorageInfo {
 
   long getRemaining() {
     return remaining;
+  }
+
+  /** Egemen Remaining */
+  public long getRelatedRemaining() { return remainingRelated; }
+  public void setRelatedRemaining(long relatedRemaining) {
+    this.remainingRelated = relatedRemaining;
+  }
+  public void increaseRelatedRemaining(long relatedRemaining) {
+    this.remainingRelated += relatedRemaining;
+  }
+  public void resetRelatedRemaining() {
+    this.remainingRelated = 0;
   }
 
   long getBlockPoolUsed() {

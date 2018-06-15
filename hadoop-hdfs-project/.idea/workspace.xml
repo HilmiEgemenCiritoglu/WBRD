@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java" line="1514" mnemonic="R" />
+    <bookmark url="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java" line="2963" mnemonic="D" />
+    <bookmark url="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java" line="2868" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/namenode/FSDirAttrOp.java" line="152" mnemonic="1" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15ed8d8e-c70f-4e41-8667-62157ab3bd69" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/hadoop-hdfs/src/contrib/bkjournal/target/" />
+    <ignored path="$PROJECT_DIR$/hadoop-hdfs-nfs/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hadoop-hdfs/target/" />
+    <ignored path="$PROJECT_DIR$/hadoop-hdfs-httpfs/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlockPlacementPolicy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockPlacementPolicyDefault.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="988" column="32" lean-forward="false" selection-start-line="988" selection-start-column="32" selection-end-line="988" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberReplicas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeartbeatManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="2975" column="31" lean-forward="false" selection-start-line="2975" selection-start-column="9" selection-end-line="2975" selection-end-column="31" />
+              <folding>
+                <element signature="e#8138#8175#0" expanded="true" />
+                <element signature="e#19536#19556#0" expanded="true" />
+                <element signature="e#19615#19635#0" expanded="true" />
+                <element signature="e#20805#20825#0" expanded="true" />
+                <element signature="e#20908#20929#0" expanded="true" />
+                <element signature="e#30387#30408#0" expanded="true" />
+                <element signature="e#31373#31387#0" expanded="true" />
+                <element signature="e#31482#31496#0" expanded="true" />
+                <element signature="e#35356#35370#0" expanded="true" />
+                <element signature="e#40738#40758#0" expanded="true" />
+                <element signature="e#51670#51687#0" expanded="true" />
+                <element signature="e#52608#52629#0" expanded="true" />
+                <element signature="e#54601#54607#0" expanded="true" />
+                <element signature="e#59436#59457#0" expanded="true" />
+                <element signature="e#78211#78232#0" expanded="true" />
+                <element signature="e#78280#78287#0" expanded="true" />
+                <element signature="e#78342#78349#0" expanded="true" />
+                <element signature="e#78414#78434#0" expanded="true" />
+                <element signature="e#78493#78512#0" expanded="true" />
+                <element signature="e#107031#107388#0" expanded="true" />
+                <element signature="e#107387#107388#0" expanded="true" />
+                <element signature="e#115911#115932#0" expanded="true" />
+                <element signature="e#124800#124821#0" expanded="true" />
+                <element signature="e#124876#124883#0" expanded="true" />
+                <element signature="e#124948#124968#0" expanded="true" />
+                <element signature="e#125027#125046#0" expanded="true" />
+                <element signature="e#148699#148798#0" expanded="true" />
+                <element signature="e#148797#148798#0" expanded="true" />
+                <element signature="e#149118#149128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getRelated</find>
+      <find>setrelat</find>
+      <find>dn =</find>
+      <find>setRElated</find>
+      <find>gerelated</find>
+      <find>setrelated</find>
+      <find>dfsUsed</find>
+      <find>remaning</find>
+      <find>setRelatedRemaining</find>
+      <find>dfsused</find>
+      <find>remainingRelated</find>
+      <find>put</find>
+      <find>upload</find>
+      <find>s</find>
+      <find>processOverReplicatedBlock</find>
+      <find>neededReplications</find>
+      <find>highest</find>
+      <find>blocksMap =</find>
+      <find>rep</find>
+      <find>nonExcess</find>
+      <find>chooseExcessReplicates</find>
+      <find>expectedNumOfReplicas</find>
+      <find>time</find>
+      <find>nodesStorageUsage</find>
+      <find>choose</find>
+      <find>delete</find>
+      <find>deleterepa</find>
+      <find>chooseReplicasToDelete</find>
+      <find>chooseREplicasTo</find>
+      <find>chooseRe</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/NameNodeAdapter.java" />
+        <option value="$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/fs/Path.java" />
+        <option value="$PROJECT_DIR$/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/TestProcessCorruptBlocks.java" />
+        <option value="$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/namenode/FSNamesystem.java" />
+        <option value="$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/namenode/FSDirAttrOp.java" />
+        <option value="$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/DatanodeStorageInfo.java" />
+        <option value="$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java" />
+        <option value="$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="152" />
+    <option name="width" value="1612" />
+    <option name="height" value="898" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-hdfs-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-hdfs-project" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="blockmanagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestFileCorruption.testCorruptionWithDiskFailure">
+    <configuration name="TestFileCorruption.testCorruptionWithDiskFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="hadoop-hdfs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.hadoop.hdfs.TestFileCorruption" />
+      <option name="METHOD_NAME" value="testCorruptionWithDiskFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestProcessCorruptBlocks.testWhenDecreasingReplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.hadoop.hdfs.server.namenode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="hadoop-hdfs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.hadoop.hdfs.server.namenode" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.hadoop.hdfs.server.namenode.TestProcessCorruptBlocks" />
+      <option name="METHOD_NAME" value="testWhenDecreasingReplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestProcessCorruptBlocks.testWithReplicationFactorAsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.hadoop.hdfs.server.namenode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="hadoop-hdfs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.hadoop.hdfs.server.namenode" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.hadoop.hdfs.server.namenode.TestProcessCorruptBlocks" />
+      <option name="METHOD_NAME" value="testWithReplicationFactorAsOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestReplicationPolicy.testChooseHighestUtilizatedReplicaToDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.hadoop.hdfs.server.blockmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="hadoop-hdfs" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.hadoop.hdfs.server.blockmanagement" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.hadoop.hdfs.server.blockmanagement.TestReplicationPolicy" />
+      <option name="METHOD_NAME" value="testChooseHighestUtilizatedReplicaToDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestReplicationPolicy.testChooseHighestUtilizatedReplicaToDelete" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestProcessCorruptBlocks.testWhenDecreasingReplication" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestProcessCorruptBlocks.testWithReplicationFactorAsOne" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFileCorruption.testCorruptionWithDiskFailure" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestFileCorruption.testCorruptionWithDiskFailure" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestProcessCorruptBlocks.testWhenDecreasingReplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestProcessCorruptBlocks.testWithReplicationFactorAsOne" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestReplicationPolicy.testChooseHighestUtilizatedReplicaToDelete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15ed8d8e-c70f-4e41-8667-62157ab3bd69" name="Default" comment="" />
+      <created>1512564202196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512564202196</updated>
+      <workItem from="1512564203802" duration="943000" />
+      <workItem from="1512575258333" duration="3766000" />
+      <workItem from="1512649379393" duration="1777000" />
+      <workItem from="1512734961217" duration="3972000" />
+      <workItem from="1513358375044" duration="359000" />
+      <workItem from="1515392947002" duration="5375000" />
+      <workItem from="1515504816390" duration="426000" />
+      <workItem from="1515752114701" duration="585000" />
+      <workItem from="1515764371580" duration="1306000" />
+      <workItem from="1516016372777" duration="1193000" />
+      <workItem from="1516019605478" duration="2000" />
+      <workItem from="1516020846076" duration="1001000" />
+      <workItem from="1516099976389" duration="4186000" />
+      <workItem from="1516120224314" duration="498000" />
+      <workItem from="1516184830253" duration="3454000" />
+      <workItem from="1516206818998" duration="304000" />
+      <workItem from="1516211282270" duration="3167000" />
+      <workItem from="1516274868322" duration="4063000" />
+      <workItem from="1516286659026" duration="77000" />
+      <workItem from="1516294562233" duration="1752000" />
+      <workItem from="1516698513548" duration="77000" />
+      <workItem from="1517320749356" duration="349000" />
+      <workItem from="1517482202297" duration="483000" />
+      <workItem from="1517579325695" duration="4516000" />
+      <workItem from="1517754249227" duration="20000" />
+      <workItem from="1517930251040" duration="624000" />
+      <workItem from="1518456240636" duration="854000" />
+      <workItem from="1518605734497" duration="117000" />
+      <workItem from="1519310849156" duration="128000" />
+      <workItem from="1519642871447" duration="299000" />
+      <workItem from="1520358403607" duration="374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestFileCorruption_testCorruptionWithDiskFailure - 2018.01.16 at 11h 05m 40s.xml">
+      <configuration name="TestFileCorruption.testCorruptionWithDiskFailure" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWhenDecreasingReplication - 2017.12.07 at 12h 33m 54s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWhenDecreasingReplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWhenDecreasingReplication - 2017.12.07 at 12h 36m 55s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWhenDecreasingReplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWhenDecreasingReplication - 2017.12.08 at 14h 01m 31s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWhenDecreasingReplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWhenDecreasingReplication - 2017.12.08 at 14h 02m 50s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWhenDecreasingReplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWhenDecreasingReplication - 2017.12.08 at 14h 03m 56s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWhenDecreasingReplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWithReplicationFactorAsOne - 2017.12.07 at 12h 39m 10s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWithReplicationFactorAsOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWithReplicationFactorAsOne - 2017.12.07 at 12h 40m 11s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWithReplicationFactorAsOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProcessCorruptBlocks_testWithReplicationFactorAsOne - 2017.12.07 at 12h 41m 56s.xml">
+      <configuration name="TestProcessCorruptBlocks.testWithReplicationFactorAsOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestReplicationPolicy_testChooseHighestUtilizatedReplicaToDelete - 2017.12.06 at 12h 49m 29s.xml">
+      <configuration name="TestReplicationPolicy.testChooseHighestUtilizatedReplicaToDelete" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46047000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="152" width="1612" height="898" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35714287" sideWeight="0.4952381" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.4952381" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/TestProcessCorruptBlocks.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/TestFileCorruption.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14970">
+          <caret line="998" column="51" lean-forward="false" selection-start-line="998" selection-start-column="35" selection-end-line="998" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44340">
+          <caret line="2956" column="67" lean-forward="false" selection-start-line="2956" selection-start-column="67" selection-end-line="2956" selection-end-column="85" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14970">
+          <caret line="998" column="51" lean-forward="false" selection-start-line="998" selection-start-column="35" selection-end-line="998" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44340">
+          <caret line="2956" column="67" lean-forward="false" selection-start-line="2956" selection-start-column="67" selection-end-line="2956" selection-end-column="85" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14970">
+          <caret line="998" column="51" lean-forward="false" selection-start-line="998" selection-start-column="35" selection-end-line="998" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44340">
+          <caret line="2956" column="67" lean-forward="false" selection-start-line="2956" selection-start-column="67" selection-end-line="2956" selection-end-column="85" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14970">
+          <caret line="998" column="51" lean-forward="false" selection-start-line="998" selection-start-column="35" selection-end-line="998" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44175">
+          <caret line="2945" column="7" lean-forward="true" selection-start-line="2945" selection-start-column="7" selection-end-line="2945" selection-end-column="7" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44655">
+          <caret line="2977" column="46" lean-forward="false" selection-start-line="2977" selection-start-column="30" selection-end-line="2977" selection-end-column="46" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14265">
+          <caret line="951" column="53" lean-forward="false" selection-start-line="951" selection-start-column="42" selection-end-line="951" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14250">
+          <caret line="950" column="67" lean-forward="false" selection-start-line="950" selection-start-column="29" selection-end-line="950" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44655">
+          <caret line="2977" column="46" lean-forward="false" selection-start-line="2977" selection-start-column="30" selection-end-line="2977" selection-end-column="46" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14250">
+          <caret line="950" column="67" lean-forward="false" selection-start-line="950" selection-start-column="29" selection-end-line="950" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44655">
+          <caret line="2977" column="46" lean-forward="false" selection-start-line="2977" selection-start-column="30" selection-end-line="2977" selection-end-column="46" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15555">
+          <caret line="1037" column="16" lean-forward="false" selection-start-line="1037" selection-start-column="16" selection-end-line="1037" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15555">
+          <caret line="1037" column="16" lean-forward="false" selection-start-line="1037" selection-start-column="16" selection-end-line="1037" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/NumberReplicas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlocksMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="153" column="32" lean-forward="false" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/HeartbeatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="2975" column="31" lean-forward="false" selection-start-line="2975" selection-start-column="9" selection-end-line="2975" selection-end-column="31" />
+          <folding>
+            <element signature="e#8138#8175#0" expanded="true" />
+            <element signature="e#19536#19556#0" expanded="true" />
+            <element signature="e#19615#19635#0" expanded="true" />
+            <element signature="e#20805#20825#0" expanded="true" />
+            <element signature="e#20908#20929#0" expanded="true" />
+            <element signature="e#30387#30408#0" expanded="true" />
+            <element signature="e#31373#31387#0" expanded="true" />
+            <element signature="e#31482#31496#0" expanded="true" />
+            <element signature="e#35356#35370#0" expanded="true" />
+            <element signature="e#40738#40758#0" expanded="true" />
+            <element signature="e#51670#51687#0" expanded="true" />
+            <element signature="e#52608#52629#0" expanded="true" />
+            <element signature="e#54601#54607#0" expanded="true" />
+            <element signature="e#59436#59457#0" expanded="true" />
+            <element signature="e#78211#78232#0" expanded="true" />
+            <element signature="e#78280#78287#0" expanded="true" />
+            <element signature="e#78342#78349#0" expanded="true" />
+            <element signature="e#78414#78434#0" expanded="true" />
+            <element signature="e#78493#78512#0" expanded="true" />
+            <element signature="e#107031#107388#0" expanded="true" />
+            <element signature="e#107387#107388#0" expanded="true" />
+            <element signature="e#115911#115932#0" expanded="true" />
+            <element signature="e#124800#124821#0" expanded="true" />
+            <element signature="e#124876#124883#0" expanded="true" />
+            <element signature="e#124948#124968#0" expanded="true" />
+            <element signature="e#125027#125046#0" expanded="true" />
+            <element signature="e#148699#148798#0" expanded="true" />
+            <element signature="e#148797#148798#0" expanded="true" />
+            <element signature="e#149118#149128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="988" column="32" lean-forward="false" selection-start-line="988" selection-start-column="32" selection-end-line="988" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

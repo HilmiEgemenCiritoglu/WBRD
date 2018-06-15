@@ -21,19 +21,7 @@ import static org.apache.hadoop.util.ExitUtil.terminate;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.EnumSet;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Queue;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Callable;
@@ -93,6 +81,7 @@ import org.apache.hadoop.util.Time;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Sets;
+import org.mortbay.log.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -2864,10 +2853,11 @@ public class BlockManager {
     
     return MisReplicationResult.OK;
   }
-  
-  /** Set replication for the blocks. */
+
+
   public void setReplication(final short oldRepl, final short newRepl,
-      final String src, final Block... blocks) {
+                             final String src, final Hashtable blockAssociatedWithNodes, final Block... blocks) {
+
     if (newRepl == oldRepl) {
       return;
     }
@@ -2876,18 +2866,34 @@ public class BlockManager {
     for(Block b : blocks) {
       updateNeededReplications(b, 0, newRepl-oldRepl);
     }
-      
+
     if (oldRepl > newRepl) {
       // old replication > the new one; need to remove copies
       LOG.info("Decreasing replication from " + oldRepl + " to " + newRepl
-          + " for " + src);
-      for(Block b : blocks) {
-        processOverReplicatedBlock(b, newRepl, null, null);
-      }
+              + " for " + src);
+      if(blockAssociatedWithNodes == null) {
+          LOG.warn("EGEMEN: BlockManager // Block AssociatedWithNodes is NULL: " + src);
+        for (Block b : blocks) {
+          processOverReplicatedBlock(b, newRepl, null, null);
+        }
+      }else
+        {
+          LOG.info("EGEMEN: BlockManager // Block AssociatedWithNodes is OKAY: " + src);
+
+          for (Block b : blocks) {
+            processOverReplicatedBlock(b, newRepl, null, null, blockAssociatedWithNodes);
+          }
+        }
     } else { // replication factor is increased
       LOG.info("Increasing replication from " + oldRepl + " to " + newRepl
-          + " for " + src);
+              + " for " + src);
     }
+
+  }
+  /** Egemen method redirection */
+  public void setReplication(final short oldRepl, final short newRepl,
+      final String src, final Block... blocks) {
+        setReplication(oldRepl,newRepl,src,null,blocks);
   }
 
   /**
@@ -2896,8 +2902,14 @@ public class BlockManager {
    * mark them in the excessReplicateMap.
    */
   private void processOverReplicatedBlock(final Block block,
+                                          final short replication, final DatanodeDescriptor addedNode,
+                                          DatanodeDescriptor delNodeHint) {
+    processOverReplicatedBlock(block,replication,addedNode,delNodeHint,null);
+  }
+
+  private void processOverReplicatedBlock(final Block block,
       final short replication, final DatanodeDescriptor addedNode,
-      DatanodeDescriptor delNodeHint) {
+      DatanodeDescriptor delNodeHint,Hashtable<String,Long> nodesStorageUsage) {
     assert namesystem.hasWriteLock();
     if (addedNode == delNodeHint) {
       delNodeHint = null;
@@ -2914,6 +2926,7 @@ public class BlockManager {
         postponeBlock(block);
         return;
       }
+
       LightWeightLinkedSet<Block> excessBlocks = excessReplicateMap.get(cur
           .getDatanodeUuid());
       if (excessBlocks == null || !excessBlocks.contains(block)) {
@@ -2925,15 +2938,33 @@ public class BlockManager {
         }
       }
     }
+
+    long usedTimeForMigratingData = System.nanoTime();
+
+    if( nodesStorageUsage != null) {
+      if ( nonExcess != null)
+      {
+        for (DatanodeStorageInfo dsi : nonExcess) {
+          for (Map.Entry<String, Long> entry : nodesStorageUsage.entrySet()) {
+            if (entry.getKey().equals( dsi.getStorageID()) ) {
+              dsi.setRelatedRemaining(entry.getValue());
+              break;
+            }
+          }
+        }
+      }
+    }
+    LOG.info( "EGEMEN: BlockManager Time used for migration " + (  System.nanoTime() - usedTimeForMigratingData) );
+
     chooseExcessReplicates(nonExcess, block, replication, 
-        addedNode, delNodeHint);
+        addedNode, delNodeHint, nodesStorageUsage);
   }
 
   private void chooseExcessReplicates(
       final Collection<DatanodeStorageInfo> nonExcess,
       Block b, short replication,
       DatanodeDescriptor addedNode,
-      DatanodeDescriptor delNodeHint) {
+      DatanodeDescriptor delNodeHint,Hashtable<String,Long> nodesStorageUsage) {
     assert namesystem.hasWriteLock();
     // first form a rack to datanodes map and
     BlockCollection bc = getBlockCollection(b);
@@ -2946,6 +2977,16 @@ public class BlockManager {
             addedNode, delNodeHint);
     for (DatanodeStorageInfo choosenReplica : replicasToDelete) {
       processChosenExcessReplica(nonExcess, choosenReplica, b);
+
+      long usedTimeForMigratingData = System.nanoTime();
+      for (Map.Entry<String, Long> entry : nodesStorageUsage.entrySet()) {
+        if (entry.getKey().equals( choosenReplica.getStorageID()) ) {
+          nodesStorageUsage.put(entry.getKey(),entry.getValue()-b.getNumBytes());
+        }
+      }
+      LOG.info("EGEMEN: BlockManager Time used for migration " + (System.nanoTime() - usedTimeForMigratingData ) );
+
+
     }
   }
 

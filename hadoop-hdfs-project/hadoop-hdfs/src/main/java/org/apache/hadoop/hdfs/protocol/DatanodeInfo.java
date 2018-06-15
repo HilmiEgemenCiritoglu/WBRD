@@ -45,6 +45,7 @@ public class DatanodeInfo extends DatanodeID implements Node {
   private long capacity;
   private long dfsUsed;
   private long remaining;
+  private long remainingRelated;
   private long blockPoolUsed;
   private long cacheCapacity;
   private long cacheUsed;
@@ -181,6 +182,12 @@ public class DatanodeInfo extends DatanodeID implements Node {
 
   /** The raw free space. */
   public long getRemaining() { return remaining; }
+
+  /** Egemen Remaining */
+  public long getRelatedRemaining() { return remainingRelated; }
+  public void setRelatedRemaining(long relatedRemaining) {
+    this.remainingRelated = relatedRemaining;
+  }
 
   /** Used space by the block pool as percentage of present capacity */
   public float getBlockPoolUsedPercent() {

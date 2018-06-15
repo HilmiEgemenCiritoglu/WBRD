@@ -33,14 +33,15 @@ import org.apache.hadoop.hdfs.protocol.QuotaExceededException;
 import org.apache.hadoop.hdfs.protocol.SnapshotAccessControlException;
 import org.apache.hadoop.hdfs.server.blockmanagement.BlockManager;
 import org.apache.hadoop.hdfs.server.blockmanagement.BlockStoragePolicySuite;
+import org.apache.hadoop.hdfs.server.blockmanagement.DatanodeStorageInfo;
 import org.apache.hadoop.hdfs.util.EnumCounters;
 import org.apache.hadoop.security.AccessControlException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.EnumSet;
-import java.util.List;
+import java.util.*;
 
 import static org.apache.hadoop.hdfs.DFSConfigKeys.DFS_NAMENODE_ACCESSTIME_PRECISION_KEY;
 import static org.apache.hadoop.hdfs.DFSConfigKeys.DFS_QUOTA_BY_STORAGETYPE_ENABLED_KEY;
@@ -150,10 +151,47 @@ public class FSDirAttrOp {
       final short[] blockRepls = new short[2]; // 0: old, 1: new
       final Block[] blocks = unprotectedSetReplication(fsd, src, replication,
                                                        blockRepls);
+
+
+
+      Logger LOG = LoggerFactory.getLogger(BlockManager.class);
+      Logger blockLog = NameNode.blockStateChangeLog;
+
+      LOG.info("Egemen SetRep Working: ");
+
+      Hashtable<String, Long> hashtable =
+              new Hashtable<String, Long>();
+
+      if(blocks != null)
+      for (Block bl:blocks) {
+        blockLog.info("EGEMEN: "+bl.toString());
+
+        Iterable<DatanodeStorageInfo> dsis = bm.getStorages(bl);
+
+        if(dsis != null) {
+          LOG.info("EGEMEN: DSIS Not Null");
+          for (DatanodeStorageInfo dsi : dsis) {
+            if (hashtable.containsKey(dsi.getStorageID())) {
+              hashtable.put(dsi.getStorageID(), hashtable.get(dsi.getStorageID()) + bl.getNumBytes());
+            } else
+              hashtable.put(dsi.getStorageID(), bl.getNumBytes()); // Gercekten size'i mi kontrol et ? OK gibi
+          }
+        }else
+        {
+          LOG.warn("EGEMEN: DSIS IS Null !! Something is wrong: " + bl.getBlockName());
+        }
+      }
+
+
+      for(Map.Entry<String,Long> entry : hashtable.entrySet()) {
+        LOG.info("EGEMEN: BDR " + entry.getKey() + " Used Space " + entry.getValue());
+      }
+
+
       isFile = blocks != null;
       if (isFile) {
         fsd.getEditLog().logSetReplication(src, replication);
-        bm.setReplication(blockRepls[0], blockRepls[1], src, blocks);
+        bm.setReplication(blockRepls[0], blockRepls[1], src, hashtable, blocks);
       }
     } finally {
       fsd.writeUnlock();

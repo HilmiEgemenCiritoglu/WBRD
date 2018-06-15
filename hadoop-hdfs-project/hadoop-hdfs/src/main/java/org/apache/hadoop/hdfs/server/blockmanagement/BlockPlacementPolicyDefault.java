@@ -946,6 +946,55 @@ public class BlockPlacementPolicyDefault extends BlockPlacementPolicy {
     return storage;
   }
 
+//Egemen
+  @VisibleForTesting
+  public DatanodeStorageInfo chooseHighestUtilizatedReplicaToDelete(
+          Collection<DatanodeStorageInfo> moreThanOne,
+          Collection<DatanodeStorageInfo> exactlyOne,
+          final List<StorageType> excessTypes,
+          Map<String, List<DatanodeStorageInfo>> rackMap) {
+    long oldestHeartbeat =
+            monotonicNow() - heartbeatInterval * tolerateHeartbeatMultiplier;
+    DatanodeStorageInfo oldestHeartbeatStorage = null;
+    //long minSpace = Long.MAX_VALUE;
+    long maxSpace = Long.MIN_VALUE;
+    DatanodeStorageInfo minSpaceStorage = null;
+
+    // Pick the node with the oldest heartbeat or with the least free space,
+    // if all hearbeats are within the tolerable heartbeat interval
+    for(DatanodeStorageInfo storage : pickupReplicaSet(moreThanOne,
+            exactlyOne, rackMap)) {
+      if (!excessTypes.contains(storage.getStorageType())) {
+        continue;
+      }
+
+      final DatanodeDescriptor node = storage.getDatanodeDescriptor();
+      long free = storage.getRelatedRemaining();
+      long lastHeartbeat = node.getLastUpdateMonotonic();
+      if (lastHeartbeat < oldestHeartbeat) {
+        oldestHeartbeat = lastHeartbeat;
+        oldestHeartbeatStorage = storage;
+      }
+
+      if (maxSpace < free) {
+        maxSpace = free;
+        minSpaceStorage = storage;
+      }
+    }
+
+    final DatanodeStorageInfo storage;
+    if (oldestHeartbeatStorage != null) {
+      storage = oldestHeartbeatStorage;
+    } else if (minSpaceStorage != null) {
+      storage = minSpaceStorage;
+    } else {
+      return null;
+    }
+
+    excessTypes.remove(storage.getStorageType());
+    return storage;
+  }
+
   @Override
   public List<DatanodeStorageInfo> chooseReplicasToDelete(
       Collection<DatanodeStorageInfo> candidates,
@@ -980,8 +1029,10 @@ public class BlockPlacementPolicyDefault extends BlockPlacementPolicy {
       if (useDelHint(firstOne, delNodeHintStorage, addedNodeStorage,
           moreThanOne, excessTypes)) {
         cur = delNodeHintStorage;
+        LOG.warn("EGEMEN: BlockPlacementPolicy Regular excessive replica removal NOT OK !");
       } else { // regular excessive replica removal
-        cur = chooseReplicaToDelete(moreThanOne, exactlyOne, excessTypes,
+        //cur = chooseReplicaToDelete(moreThanOne, exactlyOne, excessTypes,
+          cur = chooseHighestUtilizatedReplicaToDelete(moreThanOne, exactlyOne, excessTypes,
             rackMap);
       }
       firstOne = false;
@@ -997,6 +1048,7 @@ public class BlockPlacementPolicyDefault extends BlockPlacementPolicy {
     }
     return excessReplicas;
   }
+
 
   /** Check if we can use delHint. */
   @VisibleForTesting

@@ -1061,6 +1061,60 @@ public class TestReplicationPolicy {
     assertEquals(chosen, storages[1]);
   }
 
+  //Egemen new method
+  @Test
+  public void testChooseHighestUtilizatedReplicaToDelete() throws Exception {
+    List<DatanodeStorageInfo> replicaList = new ArrayList<DatanodeStorageInfo>();
+    final Map<String, List<DatanodeStorageInfo>> rackMap
+            = new HashMap<String, List<DatanodeStorageInfo>>();
+
+    dataNodes[0].setRelatedRemaining(1*1024*1024);
+    replicaList.add(storages[0]);
+
+    dataNodes[1].setRelatedRemaining(2*1024*1024);
+    replicaList.add(storages[1]);
+
+    dataNodes[2].setRelatedRemaining(3*1024*1024);
+    replicaList.add(storages[2]);
+
+    dataNodes[5].setRelatedRemaining(4*1024*1024);
+    replicaList.add(storages[5]);
+
+    // Refresh the last update time for all the datanodes
+    for (int i = 0; i < dataNodes.length; i++) {
+      DFSTestUtil.resetLastUpdatesWithOffset(dataNodes[i], 0);
+    }
+
+    List<DatanodeStorageInfo> first = new ArrayList<DatanodeStorageInfo>();
+    List<DatanodeStorageInfo> second = new ArrayList<DatanodeStorageInfo>();
+    replicator.splitNodesWithRack(replicaList, rackMap, first, second);
+    // storages[0] and storages[1] are in first set as their rack has two
+    // replica nodes, while storages[2] and dataNodes[5] are in second set.
+    assertEquals(2, first.size());
+    assertEquals(2, second.size());
+    List<StorageType> excessTypes = new ArrayList<StorageType>();
+    {
+      // test returning null
+      excessTypes.add(StorageType.SSD);
+      assertNull(((BlockPlacementPolicyDefault) replicator)
+              .chooseHighestUtilizatedReplicaToDelete(first, second, excessTypes, rackMap));
+    }
+    excessTypes.add(StorageType.DEFAULT);
+    DatanodeStorageInfo chosen = ((BlockPlacementPolicyDefault) replicator)
+            .chooseHighestUtilizatedReplicaToDelete(first, second, excessTypes, rackMap);
+    // Within all storages, storages[5] with high space utilization
+    assertEquals(chosen, storages[5]);
+
+    replicator.adjustSetsWithChosenReplica(rackMap, first, second, chosen);
+    assertEquals(2, first.size());
+    assertEquals(1, second.size());
+    // Within first set, storages[2] with high space utilization
+    excessTypes.add(StorageType.DEFAULT);
+    chosen = ((BlockPlacementPolicyDefault) replicator).chooseHighestUtilizatedReplicaToDelete(
+            first, second, excessTypes, rackMap);
+    assertEquals(chosen, storages[1]);
+  }
+
   @Test
   public void testChooseReplicasToDelete() throws Exception {
     Collection<DatanodeStorageInfo> nonExcess = new ArrayList<DatanodeStorageInfo>();

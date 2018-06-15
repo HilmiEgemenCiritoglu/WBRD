@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hadoop-hdfs.iml" filepath="$PROJECT_DIR$/hadoop-hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/contrib/bkjournal/hadoop-hdfs-bkjournal.iml" filepath="$PROJECT_DIR$/src/contrib/bkjournal/hadoop-hdfs-bkjournal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/contrib/bkjournal/target/maven-archiver/maven-archiver (1).iml" filepath="$PROJECT_DIR$/src/contrib/bkjournal/target/maven-archiver/maven-archiver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/maven-archiver/maven-archiver (2).iml" filepath="$PROJECT_DIR$/target/maven-archiver/maven-archiver (2).iml" />
+    </modules>
+  </component>
+</project>

@@ -1,3 +1,13 @@
+This is a repository for the workload-aware replica deletion algorithm 
+implementation on the top of Apache Hadoop v2.7.3. The paper is 
+presented in IEEE Big Data Congress '18. For paper please click 
+following link:
+
+ Towards a Better Replica Management for Hadoop Distributed File System
+Hilmi Egemen Ciritoglu, Takfarinas Saber, Teodora Sandra Buda, John Murphy and Christina Thorpe
+
+
+
 For the latest information about Hadoop, please visit our website at:
 
    http://hadoop.apache.org/core/
